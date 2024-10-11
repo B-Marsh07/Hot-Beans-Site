@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - Hot Beans</title>
+    <style>
+        :root {
+            --primary-color: rgba(234,153,55,1);
+            --secondary-color: rgba(255,94,0,1);
+            --nav-bg-gradient: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 56%, var(--secondary-color) 96%);
+            --section-bg-gradient: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color) 56%, var(--secondary-color) 96%);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav {
+            background: var(--nav-bg-gradient);
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #FF6347;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        #team {
+            background: var(--section-bg-gradient);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .team-member {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            background-color: #fff;
+        }
+        .team-member img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF4500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #FF6347;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="images/giphy.gif" alt="Hot Beans Logo" width="50%" class="img-circle"></a>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Form.html">Apply now</a>
+        <a href="web-dev-courses.html">Web courses</a>
+        <a href="Job-specs.html">Job Specifications</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <section id="team">
+        <h2 style="color: #FF4500;">Meet Our Web Development Team</h2>
+        <div class="team-member">
+            <img src="images/worker1.jpg" alt="Team Member 1">
+            <h3>Gabriel Carter</h3>
+            <p>Lead Developer</p>
+            <p>Bringing innovation and expertise to every project.</p>
+        </div>
+        <div class="team-member">
+            <img src="images/worker3.jpg" alt="Team Member 2">
+            <h3>Jane Smith</h3>
+            <p>Frontend Developer</p>
+            <p>Creating captivating user experiences with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="team-member">
+            <img src="images/worker2.jpg" alt="Team Member 3">
+            <h3>Mike Johnson</h3>
+            <p>Backend Developer</p>
+            <p>Building robust server-side applications with Node.js and databases.</p>
+        </div>
+        <div class="team-member">
+            <img src="images/woker4.jpg" alt="Team Member 4">
+            <h3>Sara Brown</h3>
+            <p>UI/UX Designer</p>
+            <p>Crafting visually appealing and intuitive interfaces for web applications.</p>
+        </div>
+        <div class="team-member">
+            <img src="images/worker5.jpg" alt="Team Member 5">
+            <h3>Chris Lee</h3>
+            <p>Quality Assurance Engineer</p>
+            <p>Ensuring the reliability and performance of web applications through rigorous testing.</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Hot Beans. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
